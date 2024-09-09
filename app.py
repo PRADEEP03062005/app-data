@@ -35,7 +35,7 @@ def extract_text_from_file(file_path):
         return ""
 
 # Directly extract text from the specific text file
-file_path = r"D:\SEM 6\sih\chatbots\chatbot\ARTICLES OF IC.txt"
+file_path = r"ARTICLES OF IC.txt"
 context_text = extract_text_from_file(file_path)
 
 # Function to get the response from the Gemini API with the full context
